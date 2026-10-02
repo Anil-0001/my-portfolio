@@ -88,10 +88,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: var(--navbar-height);
 }
-
 body {
   margin: 0;
   min-width: 320px;
@@ -283,3 +281,4 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+

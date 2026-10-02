@@ -1,37 +1,31 @@
 export const heroData = {
-  eyebrow: "Available for opportunities",
+  availability: "Available for opportunities",
 
   greeting: "Hi, I'm",
   name: "Anil Kumar",
 
-  title: "Frontend Developer",
-  highlight: "& MERN Developer",
+  title: "Full Stack",
+  titleHighlight: "Developer",
 
   description:
-    "I build responsive, performant and user-focused web applications with modern frontend technologies and the MERN stack.",
+    "I build responsive, scalable web applications with modern frontend experiences, secure APIs and reliable backend systems.",
 
   primaryButton: {
-    label: "View Projects",
+    label: "Explore Projects",
     href: "#projects",
   },
 
   secondaryButton: {
-    label: "Let's Connect",
+    label: "Let's Talk",
     href: "#contact",
   },
 
-  stats: [
-    {
-      value: "02+",
-      label: "Featured Projects",
-    },
-    {
-      value: "MERN",
-      label: "Development",
-    },
-    {
-      value: "100%",
-      label: "Responsive",
-    },
+  technologies: [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
   ],
 };
